@@ -1,3 +1,4 @@
+package Day1;
 //print * pattern
 // *
 // **

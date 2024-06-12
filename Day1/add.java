@@ -1,3 +1,4 @@
+package Day1;
 //add two numbers
 public class add{
     public static void main(String[] args){
