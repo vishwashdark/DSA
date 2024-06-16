@@ -1,4 +1,3 @@
-package Day5;
 public class invertedpyramid {
     public static void main(String[] args) {
         for (int i = 5; i >= 1; i--) { // Change condition to i >= 1
