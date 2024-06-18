@@ -21,6 +21,23 @@ public class calculator {
         System.out.println("multiplication of two numbers"+c);
         return;
     }
+    public static void factorial(int a){
+        int factorial1 = 1;
+        for(int i=a;i>=1;i--){
+            factorial1=factorial1*i;
+        }
+        if(a==0){
+            System.out.println(0);
+        }
+        else if(a<0){
+            System.out.println("Negative number ");
+
+        }
+        else{
+            System.out.println(factorial1);
+        }
+        return;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter number a");
@@ -39,9 +56,13 @@ public class calculator {
         else if(c==3){
             product(a, b);
         }
+        else if(c==4){
+            factorial(a);
+        }
         else{
             subract(a,b);
         }
+
     }
 
 }
