@@ -1,3 +1,4 @@
+package Day9;
 public class max_min {
     public static void main(String[] args) {
         int [] a = {5, 3, 2, 6, 1, 10};
